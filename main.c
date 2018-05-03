@@ -70,16 +70,16 @@ void timecmp(void)
 {
 	printf("time compare\n");
 	if (time1->tm_hour < time2->tm_hour)
-		printf("text2 is early\n\n")
+		printf("text2 is early\n\n");
 	else if (time1->tm_hour > time2->tm_hour)
-		printf("text1 is early\n\n")
+		printf("text1 is early\n\n");
 	else
 	{
 		if(time1->tm_min < time2->tm_min)
-			printf("text2 is early\n\n")
+			printf("text2 is early\n\n");
 		else if (time1->tm_min > time2->tm_min)
-			printf("text1 is early\n\n")
+			printf("text1 is early\n\n");
 		else
-			printf("same time\n\n")
+			printf("same time\n\n");
 	}
 }
