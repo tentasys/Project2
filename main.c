@@ -64,9 +64,9 @@ void blockcmp(void)
 void datecmp(void)
 {
 	printf("date compare\n");
-	if (time1->tm_mon < time2->tm_min)
+	if (time1->tm_mon < time2->tm_mon)
 		printf("text2 is early\n\n");
-	else if (time1->tm_mon > time2->tm_min)
+	else if (time1->tm_mon > time2->tm_mon)
 		printf("text1 is early\n\n");
 	else
 	{
